@@ -38,10 +38,10 @@ function scrollHeader() {
 window.addEventListener("scroll", scrollHeader);
 /*=============== POPULAR SWIPER ===============*/
 let swiperPopluar = new Swiper(".popular__container", {
-    loop: true,
-    spaceBetween: 24,
-    slidesPerView: "auto",
-    grabCursor : true ,
+  loop: true,
+  spaceBetween: 24,
+  slidesPerView: "auto",
+  grabCursor: true,
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: true,
@@ -49,7 +49,6 @@ let swiperPopluar = new Swiper(".popular__container", {
   breakpoints: {
     768: {
       slidesPerView: 3,
-
     },
     1024: {
       spaceBetween: 48,
