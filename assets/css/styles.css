@@ -15,7 +15,7 @@
   --text-color-light: hsl(219, 4%, 55%);
   --white-color: #fff;
   --body-color: hsl(219, 4%, 4%);
-  --container-color: hsl(219, 4%, 7%);
+  --container-color: hsl(210, 6%, 7%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -325,6 +325,7 @@ img {
   font-size: var(--small-font-size);
   color: var(--white-color);
   font-weight: var(--font-medium);
+  margin: 30px 0;
 }
 
 .home__button::before {
@@ -1140,12 +1141,12 @@ img {
 
   .offer__container{
     grid-template-columns: repeat(2,1fr);
-    column-gap: 5rem;
+     column-gap: 5rem;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 2rem; 
   }
 
-  .offer__data,
+ .offer__data,
   .offer__title{
     text-align: initial;
   }
@@ -1160,7 +1161,7 @@ img {
 
   .offer__img{
     width: 450px;
-  }
+  } 
 
   .logos__container{
     grid-template-columns: repeat(6,max-content);
