@@ -944,7 +944,7 @@ img {
 }
 
 /* For medium devices */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
   .about__group {
     width: 350px;
     justify-self: center;
