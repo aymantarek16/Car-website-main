@@ -1,5 +1,4 @@
 # 🚘 Responsive Car website
-### 🚘 Responsive Car website
 
 - Responsive Car website Using HTML CSS & JavaScript
 - Contains animations when scrolling.
